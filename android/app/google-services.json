@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "323299104655",
+    "project_id": "home-e480f",
+    "storage_bucket": "home-e480f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:323299104655:android:e5decbf517f421be1c5dfa",
+        "android_client_info": {
+          "package_name": "com.example.firebasedemoall"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "323299104655-mso43up0mdh514e1si0evvp8cufvfo55.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.firebasedemoall",
+            "certificate_hash": "ac1f745c0007681b232933d3fbc98f34977e9683"
+          }
+        },
+        {
+          "client_id": "323299104655-7fc885tup5m3t3i0bdk8ouqkvlh44vmu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-XBGCcbmVRH2fhrVeGmTOQpYw_Qm6P1c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "323299104655-7fc885tup5m3t3i0bdk8ouqkvlh44vmu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
