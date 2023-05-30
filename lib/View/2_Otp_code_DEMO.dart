@@ -1,4 +1,5 @@
 import 'dart:async';
+import 'dart:developer';
 
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
@@ -155,7 +156,7 @@ class _Otp5State extends State<Otp5> {
                             );
                           },
                           codeAutoRetrievalTimeout: (String verificationId) {
-                            print('Time out');
+                            log('Time out');
                           },
                           forceResendingToken: widget.token,
                         );

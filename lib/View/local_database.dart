@@ -1,3 +1,5 @@
+import 'dart:developer';
+
 import 'package:flutter/material.dart';
 import 'package:path/path.dart';
 import 'package:sqflite/sqflite.dart';
@@ -41,7 +43,7 @@ class _DatabaseDemoState extends State<DatabaseDemo> {
 
   Future getData() async {
     List<Map<String, dynamic>> data = await database!.query('Test');
-    print('DATA $data');
+    log('DATA $data');
   }
 
   Future updateData() async {
