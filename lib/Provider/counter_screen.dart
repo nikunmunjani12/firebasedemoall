@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
-import '../View/google_sign_in.dart';
-import '../View/payment_demo.dart';
 import 'counter_provider.dart';
 
 class CounterScreen extends StatefulWidget {

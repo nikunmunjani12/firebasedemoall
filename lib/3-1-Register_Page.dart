@@ -64,9 +64,7 @@ class _Register3State extends State<Register3> {
                 ),
               ),
             ),
-            SizedBox(
-              height: 40,
-            ),
+            SizedBox(height: 40),
             lodiing
                 ? CircularProgressIndicator()
                 : Center(
